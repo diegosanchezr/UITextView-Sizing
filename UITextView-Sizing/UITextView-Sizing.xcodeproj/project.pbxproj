@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32872571CE362E80031AA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32872561CE362E80031AA70 /* AppDelegate.swift */; };
+		C32872591CE362E80031AA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32872581CE362E80031AA70 /* ViewController.swift */; };
+		C328725C1CE362E80031AA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328725A1CE362E80031AA70 /* Main.storyboard */; };
+		C328725E1CE362E80031AA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328725D1CE362E80031AA70 /* Assets.xcassets */; };
+		C32872611CE362E80031AA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328725F1CE362E80031AA70 /* LaunchScreen.storyboard */; };
+		C328726C1CE362E80031AA70 /* UITextView_SizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328726B1CE362E80031AA70 /* UITextView_SizingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32872681CE362E80031AA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C328724B1CE362E80031AA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32872521CE362E80031AA70;
+			remoteInfo = "UITextView-Sizing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32872531CE362E80031AA70 /* UITextView-Sizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITextView-Sizing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32872561CE362E80031AA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32872581CE362E80031AA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C328725B1CE362E80031AA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C328725D1CE362E80031AA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32872601CE362E80031AA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32872621CE362E80031AA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32872671CE362E80031AA70 /* UITextView-SizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextView-SizingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328726B1CE362E80031AA70 /* UITextView_SizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView_SizingTests.swift; sourceTree = "<group>"; };
+		C328726D1CE362E80031AA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32872501CE362E80031AA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32872641CE362E80031AA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C328724A1CE362E80031AA70 = {
+			isa = PBXGroup;
+			children = (
+				C32872551CE362E80031AA70 /* UITextView-Sizing */,
+				C328726A1CE362E80031AA70 /* UITextView-SizingTests */,
+				C32872541CE362E80031AA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32872541CE362E80031AA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32872531CE362E80031AA70 /* UITextView-Sizing.app */,
+				C32872671CE362E80031AA70 /* UITextView-SizingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32872551CE362E80031AA70 /* UITextView-Sizing */ = {
+			isa = PBXGroup;
+			children = (
+				C32872561CE362E80031AA70 /* AppDelegate.swift */,
+				C32872581CE362E80031AA70 /* ViewController.swift */,
+				C328725A1CE362E80031AA70 /* Main.storyboard */,
+				C328725D1CE362E80031AA70 /* Assets.xcassets */,
+				C328725F1CE362E80031AA70 /* LaunchScreen.storyboard */,
+				C32872621CE362E80031AA70 /* Info.plist */,
+			);
+			path = "UITextView-Sizing";
+			sourceTree = "<group>";
+		};
+		C328726A1CE362E80031AA70 /* UITextView-SizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C328726B1CE362E80031AA70 /* UITextView_SizingTests.swift */,
+				C328726D1CE362E80031AA70 /* Info.plist */,
+			);
+			path = "UITextView-SizingTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32872521CE362E80031AA70 /* UITextView-Sizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32872701CE362E80031AA70 /* Build configuration list for PBXNativeTarget "UITextView-Sizing" */;
+			buildPhases = (
+				C328724F1CE362E80031AA70 /* Sources */,
+				C32872501CE362E80031AA70 /* Frameworks */,
+				C32872511CE362E80031AA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView-Sizing";
+			productName = "UITextView-Sizing";
+			productReference = C32872531CE362E80031AA70 /* UITextView-Sizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32872661CE362E80031AA70 /* UITextView-SizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32872731CE362E80031AA70 /* Build configuration list for PBXNativeTarget "UITextView-SizingTests" */;
+			buildPhases = (
+				C32872631CE362E80031AA70 /* Sources */,
+				C32872641CE362E80031AA70 /* Frameworks */,
+				C32872651CE362E80031AA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32872691CE362E80031AA70 /* PBXTargetDependency */,
+			);
+			name = "UITextView-SizingTests";
+			productName = "UITextView-SizingTests";
+			productReference = C32872671CE362E80031AA70 /* UITextView-SizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C328724B1CE362E80031AA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Diego;
+				TargetAttributes = {
+					C32872521CE362E80031AA70 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C32872661CE362E80031AA70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C32872521CE362E80031AA70;
+					};
+				};
+			};
+			buildConfigurationList = C328724E1CE362E80031AA70 /* Build configuration list for PBXProject "UITextView-Sizing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C328724A1CE362E80031AA70;
+			productRefGroup = C32872541CE362E80031AA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32872521CE362E80031AA70 /* UITextView-Sizing */,
+				C32872661CE362E80031AA70 /* UITextView-SizingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32872511CE362E80031AA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32872611CE362E80031AA70 /* LaunchScreen.storyboard in Resources */,
+				C328725E1CE362E80031AA70 /* Assets.xcassets in Resources */,
+				C328725C1CE362E80031AA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32872651CE362E80031AA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C328724F1CE362E80031AA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32872591CE362E80031AA70 /* ViewController.swift in Sources */,
+				C32872571CE362E80031AA70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32872631CE362E80031AA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328726C1CE362E80031AA70 /* UITextView_SizingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32872691CE362E80031AA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32872521CE362E80031AA70 /* UITextView-Sizing */;
+			targetProxy = C32872681CE362E80031AA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C328725A1CE362E80031AA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C328725B1CE362E80031AA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C328725F1CE362E80031AA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32872601CE362E80031AA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C328726E1CE362E80031AA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C328726F1CE362E80031AA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32872711CE362E80031AA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITextView-Sizing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diego.UITextView-Sizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32872721CE362E80031AA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITextView-Sizing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diego.UITextView-Sizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32872741CE362E80031AA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextView-SizingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diego.UITextView-SizingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView-Sizing.app/UITextView-Sizing";
+			};
+			name = Debug;
+		};
+		C32872751CE362E80031AA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextView-SizingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diego.UITextView-SizingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView-Sizing.app/UITextView-Sizing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C328724E1CE362E80031AA70 /* Build configuration list for PBXProject "UITextView-Sizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328726E1CE362E80031AA70 /* Debug */,
+				C328726F1CE362E80031AA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32872701CE362E80031AA70 /* Build configuration list for PBXNativeTarget "UITextView-Sizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32872711CE362E80031AA70 /* Debug */,
+				C32872721CE362E80031AA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32872731CE362E80031AA70 /* Build configuration list for PBXNativeTarget "UITextView-SizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32872741CE362E80031AA70 /* Debug */,
+				C32872751CE362E80031AA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C328724B1CE362E80031AA70 /* Project object */;
+}
