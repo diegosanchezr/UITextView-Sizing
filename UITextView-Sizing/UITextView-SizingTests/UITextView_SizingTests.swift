@@ -119,8 +119,8 @@ private func replicateAttributedStringSetByUITextView(text: String, font: UIFont
 
 private func sizeWithTextView(textView: UITextView, text: String, font: UIFont, maxSize: CGSize) -> CGSize {
     textView.font = font
-    textView.text = text
     textView.textColor = UIColor.redColor()
+    textView.text = text
     return textView.sizeThatFits(maxSize).bma_round()
 }
 
